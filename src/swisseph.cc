@@ -71,6 +71,7 @@ void Initialize (Local <Object> exports) {
 	Nan::SetMethod (exports, "swe_vis_limit_mag", node_swe_vis_limit_mag);
 
 	// house
+	Nan::SetMethod (exports, "swe_house_name", node_swe_house_name);
 	Nan::SetMethod (exports, "swe_houses", node_swe_houses);
 	Nan::SetMethod (exports, "swe_houses_ex", node_swe_houses_ex);
 	Nan::SetMethod (exports, "swe_houses_ex2", node_swe_houses_ex2);
